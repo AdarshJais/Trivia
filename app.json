@@ -5,8 +5,14 @@
     "name": "Trivia",
     "slug": "Trivia",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "icon": "./assets/iconTrivia.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#6066D0"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.adarshjaiswal.Trivia"
+    }
   }
 }
